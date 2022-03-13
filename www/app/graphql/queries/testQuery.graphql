@@ -1,0 +1,3 @@
+query Test($testString: String) {
+    Echo (string: $testString)
+}
