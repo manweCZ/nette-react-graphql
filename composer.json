@@ -1,11 +1,12 @@
 {
-	"name": "nette/web-project",
-	"description": "Nette: Standard Web Project",
-	"keywords": ["nette"],
+	"name": "biteit/nette-react-graphql",
+	"description": "Basic working project with React frontend with UrQL, Nette + Nextras ORM backend and GraphQL integration including query codegen.",
+	"keywords": ["nette", "graphql", "nextras", "urql"],
+	"authors": ["Radek Boszczyk <radek@biteit.cz>"],
 	"type": "project",
 	"license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
 	"require": {
-		"php": "^8.1",
+		"php": ">=8.0",
 		"nette/application": "^3.1",
 		"nette/bootstrap": "^3.1",
 		"nette/caching": "^3.1",
