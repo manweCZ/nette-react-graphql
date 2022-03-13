@@ -1,0 +1,4 @@
+services:
+	- App\Router\RouterFactory::createRouter
+	- App\Services\AppParameters(%parameters%)
+	- App\Services\DummyTranslator

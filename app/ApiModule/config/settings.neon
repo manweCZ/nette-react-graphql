@@ -1,0 +1,18 @@
+includes:
+    - queries.neon
+    - mutations.neon
+
+services:
+    - ApiModule\GraphQL\TypesFactory
+    - ApiModule\GraphQL\GraphQLExecutor
+    - ApiModule\GraphQL\RequestProcessor(%debugMode%,...)
+
+
+extensions:
+    graphql: Portiny\GraphQLNette\DI\GraphQLExtension
+
+graphql:
+    debug: %debugMode%
+    schemaCache:
+        enabled: false # highly recommended for the production environment
+        cacheDir: %tempDir%/cache/graphql
