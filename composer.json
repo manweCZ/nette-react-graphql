@@ -1,38 +1,54 @@
 {
-	"name": "biteit/nette-react-graphql",
-	"description": "Basic working project with React frontend with UrQL, Nette + Nextras ORM backend and GraphQL integration including query codegen.",
-	"keywords": ["nette", "graphql", "nextras", "urql"],
-	"authors": ["Radek Boszczyk <radek@biteit.cz>"],
-	"type": "project",
-	"license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
-	"require": {
-		"php": ">=8.0",
-		"nette/application": "^3.1",
-		"nette/bootstrap": "^3.1",
-		"nette/caching": "^3.1",
-		"nette/finder": "^2.5",
-		"nette/http": "^3.1",
-		"nette/mail": "^3.1",
-		"nette/robot-loader": "^3.3",
-		"nette/security": "^3.1",
-		"nette/utils": "^3.2",
-		"tracy/tracy": "^2.8",
-		"portiny/graphql-nette": "^6.1",
-		"nextras/orm": "^4.0"
-	},
-	"require-dev": {
-		"nette/tester": "^2.3",
-		"symfony/thanks": "^1"
-	},
-	"autoload": {
-		"psr-4": {
-			"App\\": "app"
-		}
-	},
-	"minimum-stability": "stable",
-	"config": {
-		"allow-plugins": {
-			"symfony/thanks": true
-		}
-	}
+  "name": "biteit/nette-react-graphql",
+  "version": "1.0",
+  "description": "Basic working project with React frontend with UrQL, Nette + Nextras ORM backend and GraphQL integration including query codegen.",
+  "keywords": [
+    "nette",
+    "graphql",
+    "nextras",
+    "urql"
+  ],
+  "authors": [
+    {
+      "name": "Radek Boszczyk",
+      "email": "radek@biteit.cz"
+    }
+  ],
+  "type": "project",
+  "license": [
+    "MIT",
+    "BSD-3-Clause",
+    "GPL-2.0",
+    "GPL-3.0"
+  ],
+  "require": {
+    "php": ">=8.0",
+    "nette/application": "^3.1",
+    "nette/bootstrap": "^3.1",
+    "nette/caching": "^3.1",
+    "nette/finder": "^2.5",
+    "nette/http": "^3.1",
+    "nette/mail": "^3.1",
+    "nette/robot-loader": "^3.3",
+    "nette/security": "^3.1",
+    "nette/utils": "^3.2",
+    "tracy/tracy": "^2.8",
+    "portiny/graphql-nette": "^6.1",
+    "nextras/orm": "^4.0"
+  },
+  "require-dev": {
+    "nette/tester": "^2.3",
+    "symfony/thanks": "^1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  },
+  "minimum-stability": "stable",
+  "config": {
+    "allow-plugins": {
+      "symfony/thanks": true
+    }
+  }
 }
